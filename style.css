@@ -1,7 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Georgia:display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap");
 
  :root {
     --georgia: "Georgia", serif;
+    --bacasime : "Bacasime Antique", serif;
     --darkblue: #1F2937;
     --white: #F9FAF8;
     --light-grey: #8f9194;

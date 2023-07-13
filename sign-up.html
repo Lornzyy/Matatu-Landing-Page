@@ -20,15 +20,18 @@
 
     </div>
 
-    <form action="" class="form">
+    <form autocomplete="off" action="mailto:lonzmungai@gmail.com" class="form" >
         <fieldset class="form--fieldset">
             <legend>Sign Up!</legend>
+            
             <label for="name" > Name:  </label>
-            <input type="text" placeholder="Enter your Name">
-            <label for="email" > Email: </label>
-            <input type="email" name="email" id="" placeholder="Enter your Email">
+            <input type="text" placeholder="Enter your Name" autocomplete="false" required>
+            
+            <label for="email"> Email</label>
+            <input autocomplete="off" type="email" placeholder="Enter your Email">
+            
             <label for="password"> Password: </label>
-            <input type="password" placeholder="Enter your Password">
+            <input autocomplete="off"type="password" placeholder="Enter your Password">
 
         </fieldset>
         <button type="submit">SUBMIT</button>
